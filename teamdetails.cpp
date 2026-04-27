@@ -87,7 +87,7 @@ srand(time(0));
     if (toss == 0){
         cout << "Toss Result: Head" << endl;
         if(win==j[0]){
-    cout<<j[0] << "choose any one bat or bowl(1/2) ";
+    cout<<j[0] << "choose any one bat or bowl(1/2): ";
 cin>>choice;
 cout<<endl;
         }
@@ -103,7 +103,7 @@ else if(choice==2)
 
 if(win==j[0]){
         cout << "Toss Result: Tail" << endl;
-    cout<<"----"<<j[1] << "choose any one bat or bowl(1/2) ";
+    cout<<"----"<<j[1] << "choose any one bat or bowl(1/2): ";
 cin>>choice;
 cout<<endl;
 
